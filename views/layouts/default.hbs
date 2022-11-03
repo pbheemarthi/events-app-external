@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Team [TEAM NAME] Website</title>
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+</head>
+<body>
+  <div class="mdl-card__media">
+            
+                <img width= "300" class="article-image" src="https://storage.googleapis.com/roi-hiplocal/thumbnail-2e4d0dba-c1de-41ca-89b1-b828988cfe01.jpg" border="0" alt="">
+            
+  </div>  
+  <div>
+      <h1>Welcome to [Cohort # 125] Application</h1>
+    {{{body}}}
+</div>
+<div class="float-parent-element">
+<div class="float-child-element">
+<div>
+  <h2>Add an event</h2>
+    <form action="/event" method="post">
+       <p>Title: <input name="title" type="text" /> </p> 
+       <p>Description: <input name="description" type="text" /> </p>
+       <p>Location: <input name="location" type="text" /> </p>
+       <p><input type="submit" name="submit" value="submit" /></p>
+    </form>
+</div>
+</div>
+<div class="float-child-element">
+<div>
+  <h2>Delete an event</h2>
+    <form action="/event" method="delete">
+       <p>Title: <input name="title" type="text" /> </p> 
+       <p>Description: <input name="description" type="text" /> </p>
+       <p>Location: <input name="location" type="text" /> </p>
+       <p><input type="submit" name="submit" value="submit" /></p>
+    </form>
+</div>
+</div>
+</div>
+</body>
+</html>
